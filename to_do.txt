@@ -1,0 +1,5 @@
+html format for numbers and operations
+css formatting
+
+create an input that can hold multiple characters (ex: 1+4+8/2) 
+

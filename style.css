@@ -1,0 +1,108 @@
+:root{
+    --buttons-background: #ff7f50;
+    --buttons-background-hover: #ffd700;
+    --equal-sign-backround: #ff8c00;
+    --equal-sign-backround-hover: #8b0000;
+    --equal-sign-backround-hover-txt: #ffffff; 
+    --main-background: #f0f8ff;
+    --main-box-shadow: #add8e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    padding: 10px;
+}
+
+.main {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: var(--main-background);
+    box-shadow: 2px 2px 2px var(--main-box-shadow);
+}
+
+.input_section {
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    margin-bottom: 20px;
+}
+
+.top_form {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    gap: 2px;
+}
+
+.equal_sign {
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 40px;
+    background-color: var(--equal-sign-backround);
+}
+
+.equal_sign:hover{
+    background-color:var(--equal-sign-backround-hover);
+    color: var(--equal-sign-backround-hover-txt);
+}
+
+.html_input {
+    border-radius: 5px;
+    border: 1px solid;
+    width: 220px;
+    font-size: 40px;
+}
+
+.buttons_section{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.left_buttons{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_left{
+    font-size: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 60px;
+    background-color: var(--buttons-background);
+}
+
+.button_left:hover{
+    background-color: var(--buttons-background-hover);
+}
+
+.first_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 290px;
+    margin-bottom: 10px;
+}
+
